@@ -46,7 +46,7 @@ Terraform-GCP/                    # Main directory for Terraform project
    Cloud Storage API
    Cloud CDN API
 3. create a service account and make sure download the key file. and save it in the main folder.
-4. create a folder shown in directory structure and write the code for terraform configuration in main.tf file and save it.
+4. create the files as shown in directory structure and write the code for terraform configuration in main.tf file and save it.
 5. define variable in variable.tf. code will be like this:
 variable "project" {
   description = "GCP project ID" 
